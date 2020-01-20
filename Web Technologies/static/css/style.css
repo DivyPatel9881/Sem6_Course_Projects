@@ -1,0 +1,41 @@
+.form{
+    border-color:#686b75;
+    border-style:solid;
+    border-radius:5px;
+    margin-top:5%;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.header{
+    margin-top:15%;
+    font-size:2.5em;
+    font-weight:bold;
+}
+
+.form-container{
+    text-align:center;
+}
+
+.inputs{
+    margin-top:10%;
+}
+
+.user-id{
+    margin-bottom:5%;
+}
+
+.password{
+    margin-bottom:5%;
+}
+
+.sub-btn{
+    margin-bottom:10%;
+}
+
+.alt-opt{
+    margin-top:5%;
+    margin-bottom:5%;
+}
