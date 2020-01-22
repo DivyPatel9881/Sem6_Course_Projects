@@ -38,7 +38,6 @@ def Token_Analyzer(statement):
     tokens.append(statement[start:])
 
     for token in tokens:
-        print(token)
         if token.strip() in cpp_keywords:
             parameters["keywords"] += 1
         elif token.strip() in operators:
