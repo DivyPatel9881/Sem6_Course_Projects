@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+    <title> Category </title>
+    <meta charset="UTF-8">
+    
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300i,400,500,500i,700,700i&display=swap" rel="stylesheet">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+
+    <script scr="../static/js/jquery.min.js"></script>
+    <script scr="../static/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="./home_loggedin.html">BestBooks</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="./category_loggedin.html">Category</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="./cart.html">Your Cart</a></li>
+                    <li><a href="./profile.html">atharvaveer</a></li>
+                    <li><a href="./home_loggedout.html">LogOut</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="jumbotron category-header">
+                    <h1>Category</h1>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="thumbnail">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbQilgjSAg2GrC69eJ6X9snHfrEojBDFV7V3LByIyotOI6cQQ&s" alt="book">
+                    <div class="caption caption-content">
+                        <h3>Cook Book</h3>
+                        <h3>Price : $10</h3>
+                        <p><a href="#" class="btn btn-primary btn-lg btn-block add-to-cart" role="button">ADD TO CART</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="thumbnail">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbQilgjSAg2GrC69eJ6X9snHfrEojBDFV7V3LByIyotOI6cQQ&s" alt="book">
+                    <div class="caption caption-content">
+                        <h3>Cook Book</h3>
+                        <h3>Price : $10</h3>
+                        <p><a href="#" class="btn btn-primary btn-lg btn-block add-to-cart" role="button">ADD TO CART</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="thumbnail">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbQilgjSAg2GrC69eJ6X9snHfrEojBDFV7V3LByIyotOI6cQQ&s" alt="book">
+                    <div class="caption caption-content">
+                        <h3>Cook Book</h3>
+                        <h3>Price : $10</h3>
+                        <p><a href="#" class="btn btn-primary btn-lg btn-block add-to-cart" role="button">ADD TO CART</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="thumbnail">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbQilgjSAg2GrC69eJ6X9snHfrEojBDFV7V3LByIyotOI6cQQ&s" alt="book">
+                    <div class="caption caption-content">
+                        <h3>Cook Book</h3>
+                        <h3>Price : $10</h3>
+                        <p><a href="#" class="btn btn-primary btn-lg btn-block add-to-cart" role="button">ADD TO CART</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="thumbnail">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbQilgjSAg2GrC69eJ6X9snHfrEojBDFV7V3LByIyotOI6cQQ&s" alt="book">
+                    <div class="caption caption-content">
+                        <h3>Cook Book</h3>
+                        <h3>Price : $10</h3>
+                        <p><a href="#" class="btn btn-primary btn-lg btn-block add-to-cart" role="button">ADD TO CART</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let btns = document.querySelectorAll(".add-to-cart")
+        for(let i=0;i<btns.length;i++){
+            btns[i].addEventListener("click", () => {
+                alert("ITEM ADDED TO THE CART")
+            })
+        }
+    </script>
+</body>
+
+</html>
